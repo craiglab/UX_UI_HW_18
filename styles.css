@@ -1,0 +1,88 @@
+/* Global Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navigation Bar */
+  #navbar {
+    background-color: #3498DB;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-item {
+    margin-right: 30px;
+  }
+  
+  /* Hero Section */
+  #hero {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  #hero img {
+    max-width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  /* Portfolio Section */
+  #portfolio {
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  #portfolio h2 {
+    color: #3498DB;
+  }
+  
+  #portfolio-images img {
+    width: 30%;
+    margin: 10px;
+  }
+  
+  /* About Me Section */
+  #about {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  /* Contact Section */
+  #contact {
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  #contact h2 {
+    color: #3498DB;
+  }
+  
+  #contact-form input {
+    margin: 10px;
+  }
+  
+  /* Footer */
+  #footer {
+    background-color: #3498DB;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-item {
+    margin-right: 30px;
+  }
+  #copyright {
+    margin-top: 10px;
+    text-align: center;
+  }
+  

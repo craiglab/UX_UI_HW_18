@@ -37,21 +37,58 @@ body {
     padding: 50px;
   }
   
+  .flexContainer {
+    flex-direction: row;
+    display: flex;
+  }
+
+  .portfolio-item {
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
+    text-align: center;
+  }
+
   #portfolio h2 {
     color: #3498DB;
   }
   
-  #portfolio-images img {
-    width: 30%;
-    margin: 10px;
+  #portfolio-images {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+   
+  .portfolio-item img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .portfolio-item h3 {
+    margin: 5px 0;
+    font-size: 1.2rem;
+  }
+  
+  .portfolio-item p {
+    margin: 5px 0;
+    font-size: 0.9rem;
   }
   
   /* About Me Section */
   #about {
     background-color: black;
     color: white;
-    text-align: center;
     padding: 50px;
+  }
+
+  #about h2 {
+    text-align: center;
+  }
+
+  #about p {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: left;
   }
   
   /* Contact Section */
@@ -85,4 +122,19 @@ body {
     margin-top: 10px;
     text-align: center;
   }
+  /* Media Query */
+  @media only screen and (max-width: 600px) {
+    .flexContainer {
+      flex-direction: column;
+      align-items: center;
+      min-width: 100%;
+    }
+    .portfolio-item {
+      flex: auto;
+      box-sizing: border-box;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+
   
